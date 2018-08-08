@@ -8,18 +8,9 @@ body {
   text-align: center;
 }
 
-h2 {
-  font-family: Helvetica;
-  font-size: 35px;
-  color: seashell;
-  opacity: 0.9;
-}
-
-h4 {
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
-  opacity: 0.9;
+h2, h4 {
+  margin: 0;
+  padding: 10px;
 }
 
 /*Header CSS located below*/
@@ -84,6 +75,7 @@ h4 {
   text-align: center;
   height: auto;
   width: auto;
+  padding-top: 50px;
 }
 
 .teagallery {
@@ -163,27 +155,48 @@ h4 {
   width: 1200px;
   padding-top: 70px;
   background-image: url(../images/background.jpg);
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
 }
 
 .downtown {
+  display: flex;
+  flex-direction: column;
   height: 300px;
   width: 300px;
   background-color: black;
   opacity: 1;
+  padding-right: 40px;
 }
 
 .bayside {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  padding-right: 40px;
+}
+
+.oakdale {
+  display: flex;
+  flex-direction: column;
   height: 300px;
   width: 300px;
   background-color: black;
   opacity: 1;
 }
 
-.oakdale {
-  height: 300px;
-  width: 300px;
-  background-color: black;
-  opacity: 1;
+/* Contact Information */
+
+.contact {
+  height: 200px;
+}
+
+/* Footer CSS */
+
+.footer {
+  text-align: left;
+  padding-left: 10px;
 }
