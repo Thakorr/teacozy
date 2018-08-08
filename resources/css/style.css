@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: black;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
