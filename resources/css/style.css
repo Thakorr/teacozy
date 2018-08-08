@@ -90,11 +90,12 @@ h4 {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  width: 1200px;
+  width: 1000px;
   height: auto;
   background-color: black;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 100px;
 }
 
 .tea1 {
@@ -150,4 +151,39 @@ h4 {
   height: 200px;
   width: 300px;
   padding-bottom: 10px;
+}
+
+/* Locations CSS Below */
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  background-image: url(../images/background.jpg);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.downtown {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+.bayside {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+}
+
+.oakdale {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
 }
