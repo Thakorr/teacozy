@@ -3,6 +3,12 @@ body {
   background-color: black;
 }
 
+h2, h4 {
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+}
+
 /*Header CSS located below*/
 
 .header {
@@ -54,6 +60,11 @@ body {
   height: auto;
   width: 100%;
   background-color: black;
-  flex-direction: row;
-  color: white;
+  flex-direction: column;
+  color: seashell;
+  text-align: center;
+}
+
+.teamonth {
+  text-align: center;
 }
