@@ -41,6 +41,8 @@ body {
 /*Body CSS Located Below*/
 
 .mission {
+  display: flex;
+  align-items: center;
   margin: 0 auto;
   width: 1200px;
   height: 700px;
@@ -48,5 +50,10 @@ body {
 }
 
 .missionbar {
-  position: absolute;
+  display: flex;
+  height: auto;
+  width: 100%;
+  background-color: black;
+  flex-direction: row;
+  color: white;
 }
