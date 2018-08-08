@@ -2,8 +2,37 @@ body {
   margin: 0;
 }
 
+/*Header CSS located below*/
+
 .header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
   background-color: black;
   height: 69px;
   border-bottom: 1px solid seashell;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 22px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  height: 50px;
+  padding-left: 10px;
+  opacity: 0.9;
+}
+
+.header a {
+  display: inline-block;
+  text-decoration: underline;
+  color: seashell;
+  opacity: 0.9;
+  padding: 15px;
+}
+
+.navigation {
+  display:flex;
+  margin-left: auto;
 }
