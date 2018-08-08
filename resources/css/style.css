@@ -1,6 +1,11 @@
 body {
   margin: 0;
   background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
 }
 
 h2 {
@@ -93,51 +98,56 @@ h4 {
 }
 
 .tea1 {
-  padding: 5px;
+  padding: 10px;
 }
 
 .tea1 img {
   display: block;
   height: 200px;
   width: 300px;
+  padding-bottom: 10px;
 }
 
 .tea2 {
-  padding: 5px;
+  padding: 10px;
 }
 
 .tea2 img {
   display: block;
   height: 200px;
   width: 300px;
+  padding-bottom: 10px;
 }
 
 .tea3 {
-  padding: 5px;
+  padding: 10px;
 }
 
 .tea3 img {
   display: block;
   height: 200px;
   width: 300px;
+  padding-bottom: 10px;
 }
 
 .tea4 {
-  padding: 5px;
+  padding: 10px;
 }
 
 .tea4 img {
   display: block;
   height: 200px;
   width: 300px;
+  padding-bottom: 10px;
 }
 
 .tea5 {
-  padding: 5px;
+  padding: 10px;
 }
 
 .tea5 img {
   display: block;
   height: 200px;
   width: 300px;
+  padding-bottom: 10px;
 }
