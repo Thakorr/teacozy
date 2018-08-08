@@ -89,40 +89,55 @@ h4 {
   height: auto;
   background-color: black;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .tea1 {
+  padding: 5px;
+}
+
+.tea1 img {
+  display: block;
   height: 200px;
   width: 300px;
-  background-color: green;
-  padding: 15px;
 }
 
 .tea2 {
+  padding: 5px;
+}
+
+.tea2 img {
+  display: block;
   height: 200px;
   width: 300px;
-  background-color: green;
-  padding: 15px;
 }
 
 .tea3 {
+  padding: 5px;
+}
+
+.tea3 img {
+  display: block;
   height: 200px;
   width: 300px;
-  background-color: green;
-  padding: 15px;
 }
 
 .tea4 {
+  padding: 5px;
+}
+
+.tea4 img {
+  display: block;
   height: 200px;
   width: 300px;
-  background-color: green;
-  padding: 15px;
 }
 
 .tea5 {
+  padding: 5px;
+}
+
+.tea5 img {
+  display: block;
   height: 200px;
   width: 300px;
-  background-color: green;
-  padding: 15px;
 }
