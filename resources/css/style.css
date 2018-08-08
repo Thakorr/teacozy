@@ -153,14 +153,18 @@ h2, h4 {
 /* Locations CSS Below */
 
 .locations {
-  display: flex;
+  display: block;
   flex-direction: row;
   margin: 0 auto;
   height: 500px;
   width: 1200px;
   padding-top: 70px;
   background-image: url(../images/background.jpg);
-  align-items: center;
+}
+
+.locationblock {
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
@@ -171,7 +175,6 @@ h2, h4 {
   width: 300px;
   background-color: black;
   opacity: 1;
-  padding-right: 40px;
 }
 
 .bayside {
@@ -181,7 +184,6 @@ h2, h4 {
   width: 300px;
   background-color: black;
   opacity: 1;
-  padding-right: 40px;
 }
 
 .oakdale {
@@ -203,5 +205,5 @@ h2, h4 {
 
 .footer {
   text-align: left;
-  padding-left: 10px;
+  padding-left: 20px;
 }
