@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: black;
 }
 
 /*Header CSS located below*/
@@ -28,11 +29,24 @@ body {
   display: inline-block;
   text-decoration: underline;
   color: seashell;
-  opacity: 0.9;
   padding: 15px;
+  opacity: 0.9;
 }
 
 .navigation {
   display:flex;
   margin-left: auto;
+}
+
+/*Body CSS Located Below*/
+
+.mission {
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+  background-image: url(../images/mission_background.jpg);
+}
+
+.missionbar {
+  position: absolute;
 }
