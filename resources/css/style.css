@@ -3,8 +3,16 @@ body {
   background-color: black;
 }
 
-h2, h4 {
+h2 {
   font-family: Helvetica;
+  font-size: 35px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+h4 {
+  font-family: Helvetica;
+  font-size: 22px;
   color: seashell;
   opacity: 0.9;
 }
@@ -44,7 +52,7 @@ h2, h4 {
   margin-left: auto;
 }
 
-/*Body CSS Located Below*/
+/* Mission CSS Below */
 
 .mission {
   display: flex;
@@ -65,6 +73,19 @@ h2, h4 {
   text-align: center;
 }
 
+/* Tea of the Month CSS Below */
+
 .teamonth {
   text-align: center;
+  height: auto;
+  width: auto;
+}
+
+.teagallery {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+  background-color: white;
 }
